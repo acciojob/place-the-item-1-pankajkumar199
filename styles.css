@@ -1,13 +1,13 @@
-
-/* Your CSS Code here. */.holder {
-  display: flex;                 /* activate flexbox */
-  flex-direction: row;           /* items in a row */
-  justify-content: space-between;/* first/last touch edges, equal gaps between */
-  flex-wrap: wrap;               /* move to next line if overflow */
+.holder {
+  display: flex;             /* enable flexbox */
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  width: 100vw;              /* full viewport width */
+  height: 100vh;             /* full viewport height */
 }
 
-.item {
-  width: 150px;                  /* fixed width for each box */
-  height: 150px;                 /* fixed height */
-  margin: 10px 0;                /* small vertical spacing between rows */
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;     /* red box */
 }
