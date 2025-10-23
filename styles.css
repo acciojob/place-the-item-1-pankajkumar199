@@ -1,13 +1,14 @@
 .holder {
-  display: flex;             /* enable flexbox */
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* center vertically */
-  width: 100vw;              /* full viewport width */
-  height: 100vh;             /* full viewport height */
+  display: flex;                /* use flexbox */
+  justify-content: space-between; /* ✅ place items at ends and space them evenly */
+  align-items: center;          /* optional: vertically center items */
+  width: 100vw;                 /* full screen width */
+  height: 100vh;                /* full screen height */
+  flex-wrap: wrap;              /* allow items to move to next line if needed */
 }
 
 .item-1 {
   width: 100px;
   height: 100px;
-  background-color: red;     /* red box */
+  background-color: red;
 }
